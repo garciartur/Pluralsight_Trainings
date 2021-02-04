@@ -1,0 +1,7 @@
+C:\Users\tarep\Documents\PluralSight\BeginningCSharpCollections_Pluralsight\Read All Countries\bin\Debug\TopTenPops.exe.config
+C:\Users\tarep\Documents\PluralSight\BeginningCSharpCollections_Pluralsight\Read All Countries\bin\Debug\TopTenPops.exe
+C:\Users\tarep\Documents\PluralSight\BeginningCSharpCollections_Pluralsight\Read All Countries\bin\Debug\TopTenPops.pdb
+C:\Users\tarep\Documents\PluralSight\BeginningCSharpCollections_Pluralsight\Read All Countries\obj\Debug\ReadAllCountries.csprojAssemblyReference.cache
+C:\Users\tarep\Documents\PluralSight\BeginningCSharpCollections_Pluralsight\Read All Countries\obj\Debug\ReadAllCountries.csproj.CoreCompileInputs.cache
+C:\Users\tarep\Documents\PluralSight\BeginningCSharpCollections_Pluralsight\Read All Countries\obj\Debug\TopTenPops.exe
+C:\Users\tarep\Documents\PluralSight\BeginningCSharpCollections_Pluralsight\Read All Countries\obj\Debug\TopTenPops.pdb

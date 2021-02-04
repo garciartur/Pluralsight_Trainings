@@ -1,0 +1,7 @@
+C:\Users\tarep\Documents\PluralSight\BeginningCSharpCollections_Pluralsight\TopTenPops\bin\Debug\TopTenPops.exe.config
+C:\Users\tarep\Documents\PluralSight\BeginningCSharpCollections_Pluralsight\TopTenPops\bin\Debug\TopTenPops.exe
+C:\Users\tarep\Documents\PluralSight\BeginningCSharpCollections_Pluralsight\TopTenPops\bin\Debug\TopTenPops.pdb
+C:\Users\tarep\Documents\PluralSight\BeginningCSharpCollections_Pluralsight\TopTenPops\obj\Debug\TopTenPops.csprojAssemblyReference.cache
+C:\Users\tarep\Documents\PluralSight\BeginningCSharpCollections_Pluralsight\TopTenPops\obj\Debug\TopTenPops.csproj.CoreCompileInputs.cache
+C:\Users\tarep\Documents\PluralSight\BeginningCSharpCollections_Pluralsight\TopTenPops\obj\Debug\TopTenPops.exe
+C:\Users\tarep\Documents\PluralSight\BeginningCSharpCollections_Pluralsight\TopTenPops\obj\Debug\TopTenPops.pdb

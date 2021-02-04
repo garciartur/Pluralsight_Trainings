@@ -1,0 +1,7 @@
+C:\Users\tarep\Documents\PluralSight\BeginningCSharpCollections_Pluralsight\Countries Dictionary\bin\Debug\TopTenPops.exe.config
+C:\Users\tarep\Documents\PluralSight\BeginningCSharpCollections_Pluralsight\Countries Dictionary\bin\Debug\TopTenPops.exe
+C:\Users\tarep\Documents\PluralSight\BeginningCSharpCollections_Pluralsight\Countries Dictionary\bin\Debug\TopTenPops.pdb
+C:\Users\tarep\Documents\PluralSight\BeginningCSharpCollections_Pluralsight\Countries Dictionary\obj\Debug\CountriesDictionary.csprojAssemblyReference.cache
+C:\Users\tarep\Documents\PluralSight\BeginningCSharpCollections_Pluralsight\Countries Dictionary\obj\Debug\CountriesDictionary.csproj.CoreCompileInputs.cache
+C:\Users\tarep\Documents\PluralSight\BeginningCSharpCollections_Pluralsight\Countries Dictionary\obj\Debug\TopTenPops.exe
+C:\Users\tarep\Documents\PluralSight\BeginningCSharpCollections_Pluralsight\Countries Dictionary\obj\Debug\TopTenPops.pdb
