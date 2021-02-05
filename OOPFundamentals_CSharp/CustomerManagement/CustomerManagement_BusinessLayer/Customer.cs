@@ -8,6 +8,16 @@ namespace CustomerManagement_BusinessLayer
 {
     public class Customer
     {
+        //it's common to put the constructor before properties
+        public Customer()
+        {
+        }
+
+        public Customer(int customerId)
+        {
+            CustomerID = customerId;
+        }
+
         //use this property structure when you need to implement getter and setter
         public string LastName
         {
@@ -63,5 +73,35 @@ namespace CustomerManagement_BusinessLayer
 
         //creating a static counter that belongs to the class and not to a specific instance
         public static int CustomerCount { get; set; }
+
+        //validates user input
+        public bool Validate()
+        {
+            if (string.IsNullOrWhiteSpace(LastName))
+                return false;
+
+            if (string.IsNullOrWhiteSpace(EmailAdress))
+                return false;
+
+            return true;
+        }
+
+        //retrieve one customer
+        public Customer Retrieve(int customerId)
+        {
+            return new Customer();
+        }
+
+        //retrieve all customers
+        public List<Customer> Retrieve()
+        {
+            return new List<Customer>();
+        }
+
+        //save the current customer
+        public bool Save()
+        {
+            return true;
+        }
     }
 }

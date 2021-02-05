@@ -56,5 +56,19 @@ namespace CMBL_UnitTest
             //assert
             Assert.AreEqual(expected, result);
         }
+
+        [TestMethod]
+        public void ValidateEmptyLastName()
+        {
+            //arrange
+            var customer = new Customer();
+            var expected = false;
+
+            //act
+            var result = customer.Validate();
+
+            //assert
+            Assert.AreEqual(expected, result);
+        }
     }
 }
