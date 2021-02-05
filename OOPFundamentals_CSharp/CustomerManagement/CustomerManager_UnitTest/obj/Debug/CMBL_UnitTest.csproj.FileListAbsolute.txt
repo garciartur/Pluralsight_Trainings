@@ -1,0 +1,16 @@
+C:\Users\tarep\Documents\PluralSight\OOPFundamentals_CSharp\CustomerManagement\CustomerManager_UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\tarep\Documents\PluralSight\OOPFundamentals_CSharp\CustomerManagement\CustomerManager_UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\tarep\Documents\PluralSight\OOPFundamentals_CSharp\CustomerManagement\CustomerManager_UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\tarep\Documents\PluralSight\OOPFundamentals_CSharp\CustomerManagement\CustomerManager_UnitTest\bin\Debug\CustomerManager_UnitTest.dll
+C:\Users\tarep\Documents\PluralSight\OOPFundamentals_CSharp\CustomerManagement\CustomerManager_UnitTest\bin\Debug\CustomerManager_UnitTest.pdb
+C:\Users\tarep\Documents\PluralSight\OOPFundamentals_CSharp\CustomerManagement\CustomerManager_UnitTest\bin\Debug\CustomerManagement_BusinessLayer.dll
+C:\Users\tarep\Documents\PluralSight\OOPFundamentals_CSharp\CustomerManagement\CustomerManager_UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\tarep\Documents\PluralSight\OOPFundamentals_CSharp\CustomerManagement\CustomerManager_UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\tarep\Documents\PluralSight\OOPFundamentals_CSharp\CustomerManagement\CustomerManager_UnitTest\bin\Debug\CustomerManagement_BusinessLayer.pdb
+C:\Users\tarep\Documents\PluralSight\OOPFundamentals_CSharp\CustomerManagement\CustomerManager_UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\tarep\Documents\PluralSight\OOPFundamentals_CSharp\CustomerManagement\CustomerManager_UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\tarep\Documents\PluralSight\OOPFundamentals_CSharp\CustomerManagement\CustomerManager_UnitTest\obj\Debug\CMBL_UnitTest.csprojAssemblyReference.cache
+C:\Users\tarep\Documents\PluralSight\OOPFundamentals_CSharp\CustomerManagement\CustomerManager_UnitTest\obj\Debug\CMBL_UnitTest.csproj.CoreCompileInputs.cache
+C:\Users\tarep\Documents\PluralSight\OOPFundamentals_CSharp\CustomerManagement\CustomerManager_UnitTest\obj\Debug\CMBL_UnitTest.csproj.CopyComplete
+C:\Users\tarep\Documents\PluralSight\OOPFundamentals_CSharp\CustomerManagement\CustomerManager_UnitTest\obj\Debug\CustomerManager_UnitTest.dll
+C:\Users\tarep\Documents\PluralSight\OOPFundamentals_CSharp\CustomerManagement\CustomerManager_UnitTest\obj\Debug\CustomerManager_UnitTest.pdb

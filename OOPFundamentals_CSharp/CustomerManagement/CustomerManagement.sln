@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerManagement_BusinessLayer", "CustomerManagement_BusinessLayer\CustomerManagement_BusinessLayer.csproj", "{4A6F3FFF-CB30-4C1A-97AD-D41CB805CC47}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{0A03D23D-2CF7-4809-A3EA-8A490DDD25BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CMBL_UnitTest", "CustomerManager_UnitTest\CMBL_UnitTest.csproj", "{674507E5-D472-4B31-8B2B-3B833CAA6D29}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4A6F3FFF-CB30-4C1A-97AD-D41CB805CC47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A6F3FFF-CB30-4C1A-97AD-D41CB805CC47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A6F3FFF-CB30-4C1A-97AD-D41CB805CC47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A6F3FFF-CB30-4C1A-97AD-D41CB805CC47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{674507E5-D472-4B31-8B2B-3B833CAA6D29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{674507E5-D472-4B31-8B2B-3B833CAA6D29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{674507E5-D472-4B31-8B2B-3B833CAA6D29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{674507E5-D472-4B31-8B2B-3B833CAA6D29}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{674507E5-D472-4B31-8B2B-3B833CAA6D29} = {0A03D23D-2CF7-4809-A3EA-8A490DDD25BE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C41909B5-9C06-4E3F-9525-45F2BE23B641}
+	EndGlobalSection
+EndGlobal
