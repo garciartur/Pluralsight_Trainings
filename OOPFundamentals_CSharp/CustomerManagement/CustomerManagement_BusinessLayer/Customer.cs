@@ -9,14 +9,21 @@ namespace CustomerManagement_BusinessLayer
     public class Customer
     {
         //it's common to put the constructor before properties
-        public Customer()
+        //: this() calls the other constructor using 0 as inicializing parameter
+        public Customer() : this(0)
         {
         }
 
         public Customer(int customerId)
         {
             CustomerID = customerId;
+            //inicializing the list in constructor to avoid null exceptions
+            AddressList = new List<Address>();
         }
+
+        //list of addresses to receive home address and wor address
+        //this classa has a composition realationship with Address class, cause it's composed by Addresses objects
+        public List<Address> AddressList { get; set; }
 
         //use this property structure when you need to implement getter and setter
         public string LastName
@@ -70,6 +77,7 @@ namespace CustomerManagement_BusinessLayer
         //completing the class properties
         public string EmailAdress { get; set; }
         public int CustomerID { get; set; }
+        public int CustomerType { get; set; }
 
         //creating a static counter that belongs to the class and not to a specific instance
         public static int CustomerCount { get; set; }

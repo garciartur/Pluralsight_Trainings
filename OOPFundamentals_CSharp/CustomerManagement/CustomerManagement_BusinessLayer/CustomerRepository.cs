@@ -8,6 +8,13 @@ namespace CustomerManagement_BusinessLayer
 {
     public class CustomerRepository
     {
+        //establishes a collaborative relationship with AddressRepository
+        public CustomerRepository()
+        {
+            addressRepository = new AddressRepository();
+        }
+        public AddressRepository addressRepository { get; set; }
+
         //retrieve one customer
         public Customer Retrieve(int customerId)
         {
@@ -19,6 +26,8 @@ namespace CustomerManagement_BusinessLayer
                 customer.EmailAdress = "sakurakinomoto@cardcaptors.com";
                 customer.FirstName = "Sakura";
                 customer.LastName = "Kinomoto";
+                //communicate with AddressRepository and receive a list of addresses populated
+                customer.AddressList = addressRepository.RetrieveByCostumerId(customerId).ToList();
             }
 
             return customer;
