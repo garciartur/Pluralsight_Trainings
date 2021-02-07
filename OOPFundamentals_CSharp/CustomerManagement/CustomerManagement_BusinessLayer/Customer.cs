@@ -85,23 +85,5 @@ namespace CustomerManagement_BusinessLayer
 
             return true;
         }
-
-        //retrieve one customer
-        public Customer Retrieve(int customerId)
-        {
-            return new Customer();
-        }
-
-        //retrieve all customers
-        public List<Customer> Retrieve()
-        {
-            return new List<Customer>();
-        }
-
-        //save the current customer
-        public bool Save()
-        {
-            return true;
-        }
     }
 }

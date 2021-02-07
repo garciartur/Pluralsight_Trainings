@@ -29,20 +29,5 @@ namespace CustomerManagement_BusinessLayer
 
             return true;
         }
-
-        public Order Retrieve(int customerId)
-        {
-            return new Order();
-        }
-
-        public List<Order> Retrieve()
-        {
-            return new List<Order>();
-        }
-
-        public bool Save()
-        {
-            return true;
-        }
     }
 }

@@ -36,21 +36,6 @@ namespace CustomerManagement_BusinessLayer
                 return false;
 
             return true;
-        }
-
-        public Product Retrieve(int customerId)
-        {
-            return new Product();
-        }
-
-        public List<Product> Retrieve()
-        {
-            return new List<Product>();
-        }
-
-        public bool Save()
-        {
-            return true;
         }        
     }
 }

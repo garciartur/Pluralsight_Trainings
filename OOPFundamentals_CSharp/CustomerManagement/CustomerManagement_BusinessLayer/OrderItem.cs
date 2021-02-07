@@ -27,27 +27,12 @@ namespace CustomerManagement_BusinessLayer
             if (Quantity <= 0)
                 return false;
 
-            if(ProductId <= 0)
+            if (ProductId <= 0)
                 return false;
 
             if (PurchasePrice == null)
                 return false;
 
-            return true;
-        }
-
-        public OrderItem Retrieve(int customerId)
-        {
-            return new OrderItem();
-        }
-
-        public List<OrderItem> Retrieve()
-        {
-            return new List<OrderItem>();
-        }
-
-        public bool Save()
-        {
             return true;
         }
     }
