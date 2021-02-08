@@ -26,5 +26,47 @@ namespace CMBL_UnitTest
             Assert.AreEqual(expected.ProductDescription, result.ProductDescription);
             Assert.AreEqual(expected.CurrentPrice, result.CurrentPrice);
         }
+
+        [TestMethod]
+        public void SaveChangesValid()
+        {
+            //arrange
+            var productRepository = new ProductRepository();
+            var product = new Product(2)
+            {
+                ProductName = "Clow Cards",
+                ProductDescription = "Complete deck with 52 magic cards designed by the half british half chinese magician Clow Reed.",
+                CurrentPrice = 200.50M,
+                HasChanges = true
+            };
+
+            //act
+            var result = productRepository.Save(product);
+            var expected = true;
+
+            //assert
+            Assert.AreEqual(expected, result);
+        }
+
+        [TestMethod]
+        public void SaveChangesInvalid()
+        {
+            //arrange
+            var productRepository = new ProductRepository();
+            var product = new Product(2)
+            {
+                ProductName = "Clow Cards",
+                ProductDescription = "Complete deck with 52 magic cards designed by the half british half chinese magician Clow Reed.",
+                CurrentPrice = null,
+                HasChanges = true
+            };
+
+            //act
+            var result = productRepository.Save(product);
+            var expected = false;
+
+            //assert
+            Assert.AreEqual(expected, result);
+        }
     }
 }

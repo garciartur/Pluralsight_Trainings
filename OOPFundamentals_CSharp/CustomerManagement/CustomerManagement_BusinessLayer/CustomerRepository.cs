@@ -36,6 +36,27 @@ namespace CustomerManagement_BusinessLayer
         //save the current customer
         public bool Save(Customer customer)
         {
+            if (customer.HasChanges)
+            {
+                if (customer.IsValid)
+                {
+                    if (customer.IsNew)
+                    {
+                        //not implemented
+                    }
+                    else
+                    {
+                        //not implemented
+                    }
+                }
+                else
+                {
+                    //in case of invalid data...
+                    return false;
+                }
+            }
+
+            //in case of product with changes...
             return true;
         }
     }

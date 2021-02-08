@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CustomerManagement_BusinessLayer
 {
-    public class Customer
+    public class Customer : EntityBase
     {
         //it's common to put the constructor before properties
         //: this() calls the other constructor using 0 as inicializing parameter
@@ -83,7 +83,7 @@ namespace CustomerManagement_BusinessLayer
         public static int CustomerCount { get; set; }
 
         //validates user input
-        public bool Validate()
+        public override bool Validate()
         {
             if (string.IsNullOrWhiteSpace(LastName))
                 return false;
@@ -93,5 +93,9 @@ namespace CustomerManagement_BusinessLayer
 
             return true;
         }
+
+        //overriding the Object class to show the customer fullname while debugging
+        public override string ToString() 
+            => FullName;
     }
 }

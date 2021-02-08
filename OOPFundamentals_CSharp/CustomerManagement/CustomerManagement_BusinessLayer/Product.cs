@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CustomerManagement_BusinessLayer
 {
-    public class Product
+    public class Product : EntityBase
     {
         public Product()
         {
@@ -24,7 +24,7 @@ namespace CustomerManagement_BusinessLayer
         //the interrogative sign denotes a variable that can be nullable
         public decimal? CurrentPrice { get; set; }
 
-        public bool Validate()
+        public override bool Validate()
         {
             if (string.IsNullOrWhiteSpace(ProductName))
                 return false;
@@ -36,6 +36,10 @@ namespace CustomerManagement_BusinessLayer
                 return false;
 
             return true;
-        }        
+        }
+
+        //overriding the Object class to show the product name while debugging
+        public override string ToString() 
+            => ProductName;
     }
 }

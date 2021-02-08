@@ -22,5 +22,43 @@ namespace CMBL_UnitTest
             Assert.AreEqual(expected.OrderId, result.OrderId);
             Assert.AreEqual(expected.OrderDate, result.OrderDate);
         }
+
+        [TestMethod]
+        public void SaveChangesValid()
+        {
+            //arrange
+            var orderRepository = new OrderRepository();
+            var order = new Order(10)
+            {
+                OrderDate = new DateTimeOffset(DateTime.Now.Year, 4, 14, 10, 00, 00, new TimeSpan(7, 0, 0)),    
+                HasChanges = true
+            };
+
+            //act
+            var result = orderRepository.Save(order);
+            var expected = true;
+
+            //assert
+            Assert.AreEqual(expected, result);
+        }
+
+        [TestMethod]
+        public void SaveChangesInvalid()
+        {
+            //arrange
+            var orderRepository = new OrderRepository();
+            var order = new Order(10)
+            {
+                OrderDate = null,
+                HasChanges = true
+            };
+
+            //act
+            var result = orderRepository.Save(order);
+            var expected = false;
+
+            //assert
+            Assert.AreEqual(expected, result);
+        }
     }
 }

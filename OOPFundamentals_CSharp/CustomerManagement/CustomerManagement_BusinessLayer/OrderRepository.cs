@@ -25,6 +25,27 @@ namespace CustomerManagement_BusinessLayer
         //save the current order
         public bool Save(Order order)
         {
+            if (order.HasChanges)
+            {
+                if (order.IsValid)
+                {
+                    if (order.IsNew)
+                    {
+                        //not implemented
+                    }
+                    else
+                    {
+                        //not implemented
+                    }
+                }
+                else
+                {
+                    //in case of invalid data...
+                    return false;
+                }
+            }
+
+            //in case of product with changes...
             return true;
         }
     }

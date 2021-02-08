@@ -60,6 +60,27 @@ namespace CustomerManagement_BusinessLayer
         //save the current address
         public bool Save(Address address)
         {
+            if (address.HasChanges)
+            {
+                if (address.IsValid)
+                {
+                    if (address.IsNew)
+                    {
+                        //not implemented
+                    }
+                    else
+                    {
+                        //not implemented
+                    }
+                }
+                else
+                {
+                    //in case of invalid data...
+                    return false;
+                }
+            }
+
+            //in case of product with changes...
             return true;
         }
     }

@@ -84,5 +84,47 @@ namespace CMBL_UnitTest
                 Assert.AreEqual(expected.AddressList[i].PostalCode, result.AddressList[i].PostalCode);
             }
         }
+
+        [TestMethod]
+        public void SaveChangesValid()
+        {
+            //arrange
+            var customerRepository = new CustomerRepository();
+            var customer = new Customer(1)
+            {
+                EmailAdress = "sakurakinomoto@cardcaptors.com",
+                FirstName = "Sakura",
+                LastName = "Kinomoto",
+                HasChanges = true
+            };
+
+            //act
+            var result = customerRepository.Save(customer);
+            var expected = true;
+
+            //assert
+            Assert.AreEqual(expected, result);
+        }
+
+        [TestMethod]
+        public void SaveChangesInvalid()
+        {
+            //arrange
+            var customerRepository = new CustomerRepository();
+            var customer = new Customer(1)
+            {
+                EmailAdress = null,
+                FirstName = null,
+                LastName = null,
+                HasChanges = true
+            };
+
+            //act
+            var result = customerRepository.Save(customer);
+            var expected = false;
+
+            //assert
+            Assert.AreEqual(expected, result);
+        }
     }
 }
