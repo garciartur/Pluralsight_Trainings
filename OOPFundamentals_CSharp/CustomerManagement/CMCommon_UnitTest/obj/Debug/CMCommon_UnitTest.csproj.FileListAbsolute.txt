@@ -1,0 +1,16 @@
+C:\Users\tarep\Documents\PluralSight\OOPFundamentals_CSharp\CustomerManagement\CMCommon_UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\tarep\Documents\PluralSight\OOPFundamentals_CSharp\CustomerManagement\CMCommon_UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\tarep\Documents\PluralSight\OOPFundamentals_CSharp\CustomerManagement\CMCommon_UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\tarep\Documents\PluralSight\OOPFundamentals_CSharp\CustomerManagement\CMCommon_UnitTest\bin\Debug\CMCommon_UnitTest.dll
+C:\Users\tarep\Documents\PluralSight\OOPFundamentals_CSharp\CustomerManagement\CMCommon_UnitTest\bin\Debug\CMCommon_UnitTest.pdb
+C:\Users\tarep\Documents\PluralSight\OOPFundamentals_CSharp\CustomerManagement\CMCommon_UnitTest\bin\Debug\CM_Common.dll
+C:\Users\tarep\Documents\PluralSight\OOPFundamentals_CSharp\CustomerManagement\CMCommon_UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\tarep\Documents\PluralSight\OOPFundamentals_CSharp\CustomerManagement\CMCommon_UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\tarep\Documents\PluralSight\OOPFundamentals_CSharp\CustomerManagement\CMCommon_UnitTest\bin\Debug\CM_Common.pdb
+C:\Users\tarep\Documents\PluralSight\OOPFundamentals_CSharp\CustomerManagement\CMCommon_UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\tarep\Documents\PluralSight\OOPFundamentals_CSharp\CustomerManagement\CMCommon_UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\tarep\Documents\PluralSight\OOPFundamentals_CSharp\CustomerManagement\CMCommon_UnitTest\obj\Debug\CMCommon_UnitTest.csprojAssemblyReference.cache
+C:\Users\tarep\Documents\PluralSight\OOPFundamentals_CSharp\CustomerManagement\CMCommon_UnitTest\obj\Debug\CMCommon_UnitTest.csproj.CoreCompileInputs.cache
+C:\Users\tarep\Documents\PluralSight\OOPFundamentals_CSharp\CustomerManagement\CMCommon_UnitTest\obj\Debug\CMCommon_UnitTest.csproj.CopyComplete
+C:\Users\tarep\Documents\PluralSight\OOPFundamentals_CSharp\CustomerManagement\CMCommon_UnitTest\obj\Debug\CMCommon_UnitTest.dll
+C:\Users\tarep\Documents\PluralSight\OOPFundamentals_CSharp\CustomerManagement\CMCommon_UnitTest\obj\Debug\CMCommon_UnitTest.pdb

@@ -53,5 +53,11 @@
     <Compile Include="Customer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CM_Common\CM_Common.csproj">
+      <Project>{50a684f8-e40e-4a43-b2bb-4b80dba174d3}</Project>
+      <Name>CM_Common</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CM_Common;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -17,7 +18,28 @@ namespace CustomerManagement_BusinessLayer
             ProductId = productId;
         }
 
-        public string ProductName { get; set; }
+        //using the common library to handle the name
+        public string _productName { get; set; }
+        public string ProductName
+        {
+            get
+            {
+                //you can instanciate a handler to call the methods, but isn't necessary when using a static class
+                //var stringHandler = new StringHandler();
+                //return stringHandler.InsertSpace(_productName);
+
+                //static classes can be called directly without an instance
+                //return StringHandler.InsertSpace(_productName);
+
+                //when you use a extended method, it extends the type, it's showed by intellisense and can be called directly by the var
+                return _productName.InsertSpace();
+            }
+            set
+            {
+                _productName = ProductName;
+            }
+        }
+
         public int ProductId { get; private set; }
         public string ProductDescription { get; set; }
 

@@ -1,0 +1,6 @@
+C:\Users\tarep\Documents\PluralSight\OOPFundamentals_CSharp\CustomerManagement\CM_Common\bin\Debug\CM_Common.dll
+C:\Users\tarep\Documents\PluralSight\OOPFundamentals_CSharp\CustomerManagement\CM_Common\bin\Debug\CM_Common.pdb
+C:\Users\tarep\Documents\PluralSight\OOPFundamentals_CSharp\CustomerManagement\CM_Common\obj\Debug\CM_Common.csprojAssemblyReference.cache
+C:\Users\tarep\Documents\PluralSight\OOPFundamentals_CSharp\CustomerManagement\CM_Common\obj\Debug\CM_Common.csproj.CoreCompileInputs.cache
+C:\Users\tarep\Documents\PluralSight\OOPFundamentals_CSharp\CustomerManagement\CM_Common\obj\Debug\CM_Common.dll
+C:\Users\tarep\Documents\PluralSight\OOPFundamentals_CSharp\CustomerManagement\CM_Common\obj\Debug\CM_Common.pdb

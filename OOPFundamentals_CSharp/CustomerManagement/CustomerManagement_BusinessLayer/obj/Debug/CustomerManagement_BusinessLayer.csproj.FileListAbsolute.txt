@@ -4,3 +4,6 @@ C:\Users\tarep\Documents\PluralSight\OOPFundamentals_CSharp\CustomerManagement\C
 C:\Users\tarep\Documents\PluralSight\OOPFundamentals_CSharp\CustomerManagement\CustomerManagement_BusinessLayer\bin\Debug\CustomerManagement_BusinessLayer.pdb
 C:\Users\tarep\Documents\PluralSight\OOPFundamentals_CSharp\CustomerManagement\CustomerManagement_BusinessLayer\obj\Debug\CustomerManagement_BusinessLayer.dll
 C:\Users\tarep\Documents\PluralSight\OOPFundamentals_CSharp\CustomerManagement\CustomerManagement_BusinessLayer\obj\Debug\CustomerManagement_BusinessLayer.pdb
+C:\Users\tarep\Documents\PluralSight\OOPFundamentals_CSharp\CustomerManagement\CustomerManagement_BusinessLayer\bin\Debug\CM_Common.dll
+C:\Users\tarep\Documents\PluralSight\OOPFundamentals_CSharp\CustomerManagement\CustomerManagement_BusinessLayer\bin\Debug\CM_Common.pdb
+C:\Users\tarep\Documents\PluralSight\OOPFundamentals_CSharp\CustomerManagement\CustomerManagement_BusinessLayer\obj\Debug\CustomerManagement_BusinessLayer.csproj.CopyComplete
