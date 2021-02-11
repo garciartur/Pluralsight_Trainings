@@ -22,7 +22,7 @@ namespace CMBL_UnitTest
             var result = customerRepository.Retrieve(1);
 
             //assert
-            Assert.AreEqual(expected.CustomerID, result.CustomerID);
+            Assert.AreEqual(expected.CustomerId, result.CustomerId);
             Assert.AreEqual(expected.EmailAdress, result.EmailAdress);
             Assert.AreEqual(expected.FirstName, result.FirstName);
             Assert.AreEqual(expected.LastName, result.LastName);
@@ -67,7 +67,7 @@ namespace CMBL_UnitTest
             var result = customerRepository.Retrieve(1);
 
             //assert
-            Assert.AreEqual(expected.CustomerID, result.CustomerID);
+            Assert.AreEqual(expected.CustomerId, result.CustomerId);
             Assert.AreEqual(expected.EmailAdress, result.EmailAdress);
             Assert.AreEqual(expected.FirstName, result.FirstName);
             Assert.AreEqual(expected.LastName, result.LastName);

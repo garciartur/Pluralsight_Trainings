@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CM_Common;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace CustomerManagement_BusinessLayer
 {
-    public class Order : EntityBase
+    public class Order : EntityBase, ILoggable
     {
         public Order() : this(0)
         {
@@ -42,5 +43,9 @@ namespace CustomerManagement_BusinessLayer
         //=> is used to return a value directly - less code
         public override string ToString() => 
             $"{OrderDate.Value.Date} ({OrderId})";
+
+        //creating a log method to implement the interface
+        public string Log() => $"{OrderId}: Date: {this.OrderDate.Value.Date} Status: ";
+        //{this.EntityState.ToString()
     }
 }

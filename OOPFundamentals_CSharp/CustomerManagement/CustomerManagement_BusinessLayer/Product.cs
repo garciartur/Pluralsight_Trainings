@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace CustomerManagement_BusinessLayer
 {
-    public class Product : EntityBase
+    public class Product : EntityBase, ILoggable
     {
         public Product()
         {
@@ -63,5 +63,10 @@ namespace CustomerManagement_BusinessLayer
         //overriding the Object class to show the product name while debugging
         public override string ToString() 
             => ProductName;
+
+        public string Log() =>
+            $"{ProductId}: {ProductName} Detail: {ProductDescription} Status: ";
+        //{EntityState.ToString()
     }
 }
+

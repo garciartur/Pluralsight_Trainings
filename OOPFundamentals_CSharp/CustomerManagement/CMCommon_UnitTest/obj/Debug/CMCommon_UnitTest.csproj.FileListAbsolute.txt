@@ -14,3 +14,5 @@ C:\Users\tarep\Documents\PluralSight\OOPFundamentals_CSharp\CustomerManagement\C
 C:\Users\tarep\Documents\PluralSight\OOPFundamentals_CSharp\CustomerManagement\CMCommon_UnitTest\obj\Debug\CMCommon_UnitTest.csproj.CopyComplete
 C:\Users\tarep\Documents\PluralSight\OOPFundamentals_CSharp\CustomerManagement\CMCommon_UnitTest\obj\Debug\CMCommon_UnitTest.dll
 C:\Users\tarep\Documents\PluralSight\OOPFundamentals_CSharp\CustomerManagement\CMCommon_UnitTest\obj\Debug\CMCommon_UnitTest.pdb
+C:\Users\tarep\Documents\PluralSight\OOPFundamentals_CSharp\CustomerManagement\CMCommon_UnitTest\bin\Debug\CustomerManagement_BusinessLayer.dll
+C:\Users\tarep\Documents\PluralSight\OOPFundamentals_CSharp\CustomerManagement\CMCommon_UnitTest\bin\Debug\CustomerManagement_BusinessLayer.pdb

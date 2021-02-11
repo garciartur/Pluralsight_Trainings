@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CM_Common;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace CustomerManagement_BusinessLayer
 {
-    public class Customer : EntityBase
+    public class Customer : EntityBase, ILoggable
     {
         //it's common to put the constructor before properties
         //: this() calls the other constructor using 0 as inicializing parameter
@@ -16,7 +17,7 @@ namespace CustomerManagement_BusinessLayer
 
         public Customer(int customerId)
         {
-            CustomerID = customerId;
+            CustomerId = customerId;
             //inicializing the list in constructor to avoid null exceptions
             AddressList = new List<Address>();
         }
@@ -76,7 +77,7 @@ namespace CustomerManagement_BusinessLayer
 
         //completing the class properties
         public string EmailAdress { get; set; }
-        public int CustomerID { get; set; }
+        public int CustomerId { get; set; }
         public int CustomerType { get; set; }
 
         //creating a static counter that belongs to the class and not to a specific instance
@@ -97,5 +98,9 @@ namespace CustomerManagement_BusinessLayer
         //overriding the Object class to show the customer fullname while debugging
         public override string ToString() 
             => FullName;
+
+        //creating a log method to implement the interface
+        public string Log() => $"{CustomerId}: {FullName} Email: {EmailAdress} Status: ";
+        //{EntityState.ToString()}
     }
 }
