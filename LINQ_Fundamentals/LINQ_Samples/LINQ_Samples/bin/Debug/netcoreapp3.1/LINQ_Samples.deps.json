@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "LINQ_Samples/1.0.0": {
+        "runtime": {
+          "LINQ_Samples.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LINQ_Samples/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

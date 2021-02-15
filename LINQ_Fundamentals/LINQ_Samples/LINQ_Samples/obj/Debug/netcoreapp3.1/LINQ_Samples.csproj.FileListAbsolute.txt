@@ -1,0 +1,13 @@
+C:\Users\tarep\Documents\PluralSight\LINQ_Fundamentals\LINQ_Samples\LINQ_Samples\bin\Debug\netcoreapp3.1\LINQ_Samples.exe
+C:\Users\tarep\Documents\PluralSight\LINQ_Fundamentals\LINQ_Samples\LINQ_Samples\bin\Debug\netcoreapp3.1\LINQ_Samples.deps.json
+C:\Users\tarep\Documents\PluralSight\LINQ_Fundamentals\LINQ_Samples\LINQ_Samples\bin\Debug\netcoreapp3.1\LINQ_Samples.runtimeconfig.json
+C:\Users\tarep\Documents\PluralSight\LINQ_Fundamentals\LINQ_Samples\LINQ_Samples\bin\Debug\netcoreapp3.1\LINQ_Samples.runtimeconfig.dev.json
+C:\Users\tarep\Documents\PluralSight\LINQ_Fundamentals\LINQ_Samples\LINQ_Samples\bin\Debug\netcoreapp3.1\LINQ_Samples.dll
+C:\Users\tarep\Documents\PluralSight\LINQ_Fundamentals\LINQ_Samples\LINQ_Samples\bin\Debug\netcoreapp3.1\LINQ_Samples.pdb
+C:\Users\tarep\Documents\PluralSight\LINQ_Fundamentals\LINQ_Samples\LINQ_Samples\obj\Debug\netcoreapp3.1\LINQ_Samples.csprojAssemblyReference.cache
+C:\Users\tarep\Documents\PluralSight\LINQ_Fundamentals\LINQ_Samples\LINQ_Samples\obj\Debug\netcoreapp3.1\LINQ_Samples.AssemblyInfoInputs.cache
+C:\Users\tarep\Documents\PluralSight\LINQ_Fundamentals\LINQ_Samples\LINQ_Samples\obj\Debug\netcoreapp3.1\LINQ_Samples.AssemblyInfo.cs
+C:\Users\tarep\Documents\PluralSight\LINQ_Fundamentals\LINQ_Samples\LINQ_Samples\obj\Debug\netcoreapp3.1\LINQ_Samples.csproj.CoreCompileInputs.cache
+C:\Users\tarep\Documents\PluralSight\LINQ_Fundamentals\LINQ_Samples\LINQ_Samples\obj\Debug\netcoreapp3.1\LINQ_Samples.dll
+C:\Users\tarep\Documents\PluralSight\LINQ_Fundamentals\LINQ_Samples\LINQ_Samples\obj\Debug\netcoreapp3.1\LINQ_Samples.pdb
+C:\Users\tarep\Documents\PluralSight\LINQ_Fundamentals\LINQ_Samples\LINQ_Samples\obj\Debug\netcoreapp3.1\LINQ_Samples.genruntimeconfig.cache
