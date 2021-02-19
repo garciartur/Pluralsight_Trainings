@@ -1,0 +1,13 @@
+C:\Users\tarep\Documents\PluralSight\LINQ_Fundamentals\LINQ_Samples\Features\bin\Debug\netcoreapp3.1\Features.exe
+C:\Users\tarep\Documents\PluralSight\LINQ_Fundamentals\LINQ_Samples\Features\bin\Debug\netcoreapp3.1\Features.deps.json
+C:\Users\tarep\Documents\PluralSight\LINQ_Fundamentals\LINQ_Samples\Features\bin\Debug\netcoreapp3.1\Features.runtimeconfig.json
+C:\Users\tarep\Documents\PluralSight\LINQ_Fundamentals\LINQ_Samples\Features\bin\Debug\netcoreapp3.1\Features.runtimeconfig.dev.json
+C:\Users\tarep\Documents\PluralSight\LINQ_Fundamentals\LINQ_Samples\Features\bin\Debug\netcoreapp3.1\Features.dll
+C:\Users\tarep\Documents\PluralSight\LINQ_Fundamentals\LINQ_Samples\Features\bin\Debug\netcoreapp3.1\Features.pdb
+C:\Users\tarep\Documents\PluralSight\LINQ_Fundamentals\LINQ_Samples\Features\obj\Debug\netcoreapp3.1\Features.csprojAssemblyReference.cache
+C:\Users\tarep\Documents\PluralSight\LINQ_Fundamentals\LINQ_Samples\Features\obj\Debug\netcoreapp3.1\Features.AssemblyInfoInputs.cache
+C:\Users\tarep\Documents\PluralSight\LINQ_Fundamentals\LINQ_Samples\Features\obj\Debug\netcoreapp3.1\Features.AssemblyInfo.cs
+C:\Users\tarep\Documents\PluralSight\LINQ_Fundamentals\LINQ_Samples\Features\obj\Debug\netcoreapp3.1\Features.csproj.CoreCompileInputs.cache
+C:\Users\tarep\Documents\PluralSight\LINQ_Fundamentals\LINQ_Samples\Features\obj\Debug\netcoreapp3.1\Features.dll
+C:\Users\tarep\Documents\PluralSight\LINQ_Fundamentals\LINQ_Samples\Features\obj\Debug\netcoreapp3.1\Features.pdb
+C:\Users\tarep\Documents\PluralSight\LINQ_Fundamentals\LINQ_Samples\Features\obj\Debug\netcoreapp3.1\Features.genruntimeconfig.cache
