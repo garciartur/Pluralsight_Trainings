@@ -5,7 +5,7 @@ using System.Text;
 namespace Features
 {
     //it'll imitate the Linq queries using extension methods
-    public static class MyLINQ
+    public static class MyLinq
     {
         //return an int and receive any IEnumerable from any type
         //this is used to extend the method

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QOUAqyov/gXOTF92q7lwqKZNAM4GzGe5X2RzloP7MbJ58kdmVRrN4boUv7Q0hGgFVZ9n36mYJWTx5jrLwGgB9w==",
+  "dgSpecHash": "Vz/VZP8VC3IRv96Zs10fwufczeEfwxPuEyCY287+Y0PtVOZtjY3yXCpaZgJaoI5WMbOOcSq3A4ggWc9y5kSroA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\tarep\\Documents\\PluralSight\\LINQ_Fundamentals\\LINQ_Samples\\LINQ_Samples\\Introduction.csproj",
+  "projectFilePath": "C:\\Users\\tarep\\Documents\\PluralSight\\LINQ_Fundamentals\\LINQ_Samples\\Introduction\\Introduction.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

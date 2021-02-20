@@ -43,7 +43,7 @@ namespace Features
                 Console.WriteLine(developer.Name);
             }
 
-            //the same linq query can be writen using the syntax or lambda expressions
+            //the same linq query can be writen using the extended method syntax or lambda expressions
             var queryLambda = developers.Where(d => d.Name.Length == 5)
                                     .OrderByDescending(d => d.Name);
                                     //this last statment is not mandatory

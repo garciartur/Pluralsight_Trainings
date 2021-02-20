@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\tarep\\Documents\\PluralSight\\LINQ_Fundamentals\\LINQ_Samples\\Introduction\\Introduction.csproj",
-      "projectName": "Introduction",
-      "projectPath": "C:\\Users\\tarep\\Documents\\PluralSight\\LINQ_Fundamentals\\LINQ_Samples\\Introduction\\Introduction.csproj",
+      "projectUniqueName": "C:\\Users\\tarep\\Documents\\PluralSight\\LINQ_Fundamentals\\LINQ_Samples\\Queries\\Queries.csproj",
+      "projectName": "Queries",
+      "projectPath": "C:\\Users\\tarep\\Documents\\PluralSight\\LINQ_Fundamentals\\LINQ_Samples\\Queries\\Queries.csproj",
       "packagesPath": "C:\\Users\\tarep\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\tarep\\Documents\\PluralSight\\LINQ_Fundamentals\\LINQ_Samples\\Introduction\\obj\\",
+      "outputPath": "C:\\Users\\tarep\\Documents\\PluralSight\\LINQ_Fundamentals\\LINQ_Samples\\Queries\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\tarep\\AppData\\Roaming\\NuGet\\NuGet.Config",
