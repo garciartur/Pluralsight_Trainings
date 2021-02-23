@@ -1,0 +1,15 @@
+C:\Users\tarep\Documents\PluralSight\LINQ_Fundamentals\LINQ_Samples\Cars\bin\Debug\netcoreapp3.1\Cars.exe
+C:\Users\tarep\Documents\PluralSight\LINQ_Fundamentals\LINQ_Samples\Cars\bin\Debug\netcoreapp3.1\fuel.csv
+C:\Users\tarep\Documents\PluralSight\LINQ_Fundamentals\LINQ_Samples\Cars\bin\Debug\netcoreapp3.1\manufacturers.csv
+C:\Users\tarep\Documents\PluralSight\LINQ_Fundamentals\LINQ_Samples\Cars\bin\Debug\netcoreapp3.1\Cars.deps.json
+C:\Users\tarep\Documents\PluralSight\LINQ_Fundamentals\LINQ_Samples\Cars\bin\Debug\netcoreapp3.1\Cars.runtimeconfig.json
+C:\Users\tarep\Documents\PluralSight\LINQ_Fundamentals\LINQ_Samples\Cars\bin\Debug\netcoreapp3.1\Cars.runtimeconfig.dev.json
+C:\Users\tarep\Documents\PluralSight\LINQ_Fundamentals\LINQ_Samples\Cars\bin\Debug\netcoreapp3.1\Cars.dll
+C:\Users\tarep\Documents\PluralSight\LINQ_Fundamentals\LINQ_Samples\Cars\bin\Debug\netcoreapp3.1\Cars.pdb
+C:\Users\tarep\Documents\PluralSight\LINQ_Fundamentals\LINQ_Samples\Cars\obj\Debug\netcoreapp3.1\Cars.AssemblyInfoInputs.cache
+C:\Users\tarep\Documents\PluralSight\LINQ_Fundamentals\LINQ_Samples\Cars\obj\Debug\netcoreapp3.1\Cars.AssemblyInfo.cs
+C:\Users\tarep\Documents\PluralSight\LINQ_Fundamentals\LINQ_Samples\Cars\obj\Debug\netcoreapp3.1\Cars.csproj.CoreCompileInputs.cache
+C:\Users\tarep\Documents\PluralSight\LINQ_Fundamentals\LINQ_Samples\Cars\obj\Debug\netcoreapp3.1\Cars.dll
+C:\Users\tarep\Documents\PluralSight\LINQ_Fundamentals\LINQ_Samples\Cars\obj\Debug\netcoreapp3.1\Cars.pdb
+C:\Users\tarep\Documents\PluralSight\LINQ_Fundamentals\LINQ_Samples\Cars\obj\Debug\netcoreapp3.1\Cars.genruntimeconfig.cache
+C:\Users\tarep\Documents\PluralSight\LINQ_Fundamentals\LINQ_Samples\Cars\obj\Debug\netcoreapp3.1\Cars.csprojAssemblyReference.cache
