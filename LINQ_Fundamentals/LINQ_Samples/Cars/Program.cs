@@ -9,7 +9,10 @@ namespace Cars
     {
         static void Main(string[] args)
         {
-            var cars = ProcessFile("fuel.csv");
+            //importing the csv files
+            var cars = ProcessCars("fuel.csv");
+            var manufacturers = ProcessManufacturers("manufacturers.csv");
+
 
             //testing the csv parse
             foreach (var car in cars)
@@ -55,10 +58,137 @@ namespace Cars
             //false
             var askingB = cars.All(c => c.Manufacturer == "Ford");
             Console.WriteLine(askingB);
+
+            
+            //using join to query diferent sources of data
+            //extended method syntax
+            /*
+            var queryJoin = from car in cars
+                            join manufacturer in manufacturers
+                                on car.Manufacturer equals manufacturer.Name
+                            orderby car.Combined descending, car.Name ascending
+                            select new
+                            {
+                                manufacturer.Headquarters,
+                                car.Name,
+                                car.Combined
+                            };
+            */
+
+            //lambda expression syntax
+            var queryJoin = cars.Join(manufacturers,
+                                    c => c.Manufacturer,
+                                    m => m.Name, (c, m) => new
+                                    {
+                                        m.Headquarters,
+                                        c.Name,
+                                        c.Combined
+                                    })
+                                .OrderByDescending(c => c.Combined)
+                                .ThenBy(c => c.Name);
+                                
+
+            foreach (var item in queryJoin.Take(10))
+            {
+                Console.WriteLine($"{item.Headquarters} {item.Name} : {item.Combined}");
+            }
+
+            Console.WriteLine("\n***** GROUPING *****\n");
+            //grouping data 
+            //extended method syntax
+            /*
+            var groupingCar = from car in cars
+                              //define the group key - it's like an identifier
+                              //all uppercase to avoid errors
+                              group car by car.Manufacturer.ToUpper() into manufacturer
+                              //you can't try to order car cause it's not available, that's why you use into 
+                              orderby manufacturer.Key ascending
+                              select manufacturer;
+            */
+
+            //lambda expression syntax
+            var groupingCar = cars.GroupBy(c => c.Manufacturer.ToUpper())
+                                  .OrderBy(g => g.Key);
+               
+            //the return is a collection of collections
+            foreach (var group in groupingCar)
+            {
+                Console.WriteLine(group.Key);
+
+                //querying the group to take just the two most efficient cars
+                foreach (var car in group.OrderByDescending(c => c.Combined).Take(2))
+                {
+                    Console.WriteLine($"\t{car.Name} : {car.Combined}");
+                }
+            }
+
+            Console.WriteLine("\n***** GROUP AND JOIN *****\n");
+            //join different data sources and grouping it
+            //extension method syntax
+            /*
+            var queryGroupJoin = from manufacturer in manufacturers
+                                     //join the cars by their manufecturer
+                                 join car in cars on manufacturer.Name equals car.Manufacturer
+                                    into carGroup
+                                 orderby manufacturer.Headquarters
+                                 select new
+                                 {
+                                     Manufacturer = manufacturer,
+                                     Car = carGroup
+                                 } into result
+                                 group result by result.Manufacturer.Headquarters;
+            */
+
+            //lambda expression syntax
+            var queryGroupJoin = manufacturers.GroupJoin(cars, m => m.Name, c => c.Manufacturer, (m, g) =>
+                                                 new
+                                                 {
+                                                     Manufacture = m,
+                                                     Car = g
+                                                 })
+                                               .GroupBy(m => m.Manufacture.Headquarters);
+
+            foreach (var group in queryGroupJoin)
+            {
+                Console.WriteLine($"{group.Key}");
+                foreach (var car in group.SelectMany(g => g.Car)
+                                         .OrderByDescending(c => c.Combined)
+                                         .Take(3))
+                {
+                    Console.WriteLine($"\t{car.Name} : {car.Combined}");
+                }
+            }
+
+            Console.WriteLine("\n***** AGGREGATING *****\n");
+            //aggregating data
+            //extension method syntax
+            var queryAggregate = from car in cars
+                                 group car by car.Manufacturer into carGroup
+                                 select new
+                                 {
+                                     Name = carGroup.Key,
+                                     //return the biggest number in query
+                                     Max = carGroup.Max(c => c.Combined),
+                                     //return the smallest number in query
+                                     Min = carGroup.Min(c => c.Combined),
+                                     //return the average
+                                     Avg = carGroup.Average(c => c.Combined)
+                                 } into result
+                                 //sort the query by the max descending
+                                 orderby result.Max descending
+                                 select result;
+
+            foreach (var result in queryAggregate)
+            {
+                Console.WriteLine($"{result.Name}");
+                Console.WriteLine($"\tMax: {result.Max}");
+                Console.WriteLine($"\tMin: {result.Min}");
+                Console.WriteLine($"\tAvg: {result.Avg}");
+            }
         }
 
         //reading the csv info using linq
-        private static List<Car> ProcessFile(string path)
+        private static List<Car> ProcessCars(string path)
         {
             var query = File.ReadAllLines(path)
                             //skip the first that is the header
@@ -69,6 +199,25 @@ namespace Cars
 
             return query.ToList();
         }
+
+        private static List<Manufacturer> ProcessManufacturers(string path)
+        {
+            var query = File.ReadAllLines(path)
+                            .Where(l => l.Length > 1)
+                            .Select(l =>
+                            {
+                                var columns = l.Split(',');
+                                return new Manufacturer
+                                {
+                                    Name = columns[0],
+                                    Headquarters = columns[1],
+                                    Year = int.Parse(columns[2])
+                                };
+                            });
+
+           return query.ToList();
+        }
+
     }
 
     //it parses the csv lines and take the responsability from Car.cs
@@ -96,5 +245,13 @@ namespace Cars
             }           
         }
 
+    }
+
+    //this class will be passed as an aggregator in a linq query
+    public class CarStatistics
+    {
+        public int Max { get; set; }
+        public int Min { get; set; }
+        public int Average { get; set; }
     }
 }
