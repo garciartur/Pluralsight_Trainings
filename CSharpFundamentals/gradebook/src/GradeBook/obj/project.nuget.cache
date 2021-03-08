@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Jo4ffbkaM9PGBUgDPcSXWLmNLECVY43xC9/Rts99dndSiPIqDPVrcUhskAeV81SIUE3XMZqVvgiGVelYCNujJQ==",
+  "dgSpecHash": "D1BO986FcH3mkHyNh5LqSWfrpHkt94ump8VOawut8U4vxYBULmToumJ47z1xjZ7DSkGLkxHmZWKHxNjs5Lqkrg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\tarep\\Documents\\PluralSight\\CSharpFundamentals_Pluralsight\\gradebook\\src\\GradeBook\\GradeBook.csproj",
+  "projectFilePath": "C:\\Users\\tarep\\Documents\\PluralSight\\CSharpFundamentals\\gradebook\\src\\GradeBook\\GradeBook.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
