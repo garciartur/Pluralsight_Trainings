@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Xml.Linq;
 
 namespace Cars
 {
@@ -37,7 +38,7 @@ namespace Cars
 
             //selecting only the 10 first results in the query
             foreach (var item in querySort.Take(10))
-                Console.WriteLine($"{item.Name, -15} : {item.Combined, 0}");
+                Console.WriteLine($"{item.Name,-15} : {item.Combined,0}");
 
             //using First to select only one element - Last can be used too
             //this isn't a deferred method, it'll run with the program
@@ -59,7 +60,7 @@ namespace Cars
             var askingB = cars.All(c => c.Manufacturer == "Ford");
             Console.WriteLine(askingB);
 
-            
+
             //using join to query diferent sources of data
             //extended method syntax
             /*
@@ -86,7 +87,7 @@ namespace Cars
                                     })
                                 .OrderByDescending(c => c.Combined)
                                 .ThenBy(c => c.Name);
-                                
+
 
             foreach (var item in queryJoin.Take(10))
             {
@@ -109,7 +110,7 @@ namespace Cars
             //lambda expression syntax
             var groupingCar = cars.GroupBy(c => c.Manufacturer.ToUpper())
                                   .OrderBy(g => g.Key);
-               
+
             //the return is a collection of collections
             foreach (var group in groupingCar)
             {
@@ -185,6 +186,66 @@ namespace Cars
                 Console.WriteLine($"\tMin: {result.Min}");
                 Console.WriteLine($"\tAvg: {result.Avg}");
             }
+
+            //creating a xml file
+            CreateXML(cars);
+            //querrying a xml file
+            QueryXML();
+        }
+
+        private static void QueryXML()
+        {
+            //load the file - it can be an url too
+            var documentXML = XDocument.Load("fuel.xml");
+
+            var query = from element in documentXML.Descendants("Car")
+                        where element.Attribute("Manufacturer")?.Value == "BMW"
+                        select element.Attribute("Name").Value;
+
+            foreach (var name in query)
+                Console.WriteLine(name);
+        }
+
+        private static void CreateXML(List<Car> cars)
+        {
+            //creatin an XML file
+            //create xml file
+            var documentXML = new XDocument();
+            /*
+            //create the head element
+            var carsXML = new XElement("Cars");
+
+            //using foreach
+            foreach (var car in cars)
+            {
+                //create an upper element
+                var carXML = new XElement("Car",
+                             //append the attributes and values
+                             new XAttribute("Name", car.Name),
+                             new XAttribute("Combined", car.Combined),
+                             new XAttribute("Manufacturer", car.Manufacturer)
+                );
+
+                //add every child element to the head element
+                carsXML.Add(carXML);
+            }
+            */
+
+            //using linq
+            //create the head element
+            var carsXML = new XElement("Cars",
+                    //create the linq query to populate
+                    from car in cars
+                    select new XElement("Car",
+                             new XAttribute("Name", car.Name),
+                             new XAttribute("Combined", car.Combined),
+                             new XAttribute("Manufacturer", car.Manufacturer))
+            );
+
+            //add the head element to the xml file
+            documentXML.Add(carsXML);
+            //save the file
+            documentXML.Save("fuel.xml");
         }
 
         //reading the csv info using linq

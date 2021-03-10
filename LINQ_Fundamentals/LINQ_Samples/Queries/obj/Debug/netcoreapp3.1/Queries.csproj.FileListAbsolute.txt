@@ -4,7 +4,6 @@ C:\Users\tarep\Documents\PluralSight\LINQ_Fundamentals\LINQ_Samples\Queries\bin\
 C:\Users\tarep\Documents\PluralSight\LINQ_Fundamentals\LINQ_Samples\Queries\bin\Debug\netcoreapp3.1\Queries.runtimeconfig.dev.json
 C:\Users\tarep\Documents\PluralSight\LINQ_Fundamentals\LINQ_Samples\Queries\bin\Debug\netcoreapp3.1\Queries.dll
 C:\Users\tarep\Documents\PluralSight\LINQ_Fundamentals\LINQ_Samples\Queries\bin\Debug\netcoreapp3.1\Queries.pdb
-C:\Users\tarep\Documents\PluralSight\LINQ_Fundamentals\LINQ_Samples\Queries\obj\Debug\netcoreapp3.1\Queries.csprojAssemblyReference.cache
 C:\Users\tarep\Documents\PluralSight\LINQ_Fundamentals\LINQ_Samples\Queries\obj\Debug\netcoreapp3.1\Queries.AssemblyInfoInputs.cache
 C:\Users\tarep\Documents\PluralSight\LINQ_Fundamentals\LINQ_Samples\Queries\obj\Debug\netcoreapp3.1\Queries.AssemblyInfo.cs
 C:\Users\tarep\Documents\PluralSight\LINQ_Fundamentals\LINQ_Samples\Queries\obj\Debug\netcoreapp3.1\Queries.csproj.CoreCompileInputs.cache
